@@ -1,0 +1,38 @@
+# 本地配置和密钥
+.env
+.env.*
+!.env.example
+
+# Python 虚拟环境和缓存
+/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+/htmlcov/
+
+# 前端依赖和构建产物
+/frontend/node_modules/
+/frontend/dist/
+*.tsbuildinfo
+
+# 本地数据库、索引和可重建的知识库产物
+/storage/*.db
+/storage/*.db-*
+/storage/*.sqlite
+/storage/*.sqlite-*
+/storage/*.sqlite3
+/storage/*.sqlite3-*
+/storage/models/
+/storage/qdrant/
+/storage/hf_cache/
+/storage/parsed/
+/storage/chunks/
+
+# 编辑器和操作系统临时文件
+~$*
+*.log
+.DS_Store
+Thumbs.db

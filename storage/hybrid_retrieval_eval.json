@@ -1,0 +1,3971 @@
+{
+  "dataset_name": "retrieval_questions.json",
+  "dataset_sha256": "1f25c47ccb8c5e78e2a54f44220da6df59416a61ce91341ee1e3446fa21dbcd8",
+  "corpus_sha256": "73603e084d336b7b593b2c14af2f989fd5464391a765f9887586d2f393b2302d",
+  "question_count": 42,
+  "chunk_count": 211,
+  "evidence_count": 80,
+  "scored_count": 42,
+  "conflict_count": 3,
+  "access_denied_count": 0,
+  "summary": {
+    "3": {
+      "recall": 0.8253968253968254,
+      "mrr": 0.8928571428571429,
+      "all_conflicting_versions_hit": 2
+    },
+    "5": {
+      "recall": 0.8849206349206349,
+      "mrr": 0.8988095238095238,
+      "all_conflicting_versions_hit": 3
+    },
+    "10": {
+      "recall": 0.9464285714285714,
+      "mrr": 0.8988095238095238,
+      "all_conflicting_versions_hit": 3
+    }
+  },
+  "questions": [
+    {
+      "question_id": "Q001",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497": "FIN-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497",
+          "version_id": "FIN-001-v2",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "9878e777c8bf20b42ed194bd008e83752d4897ee259b8ce2375a0e21a73079dc",
+          "version_id": "FIN-001-v2",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.030776515151515152
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.03076923076923077
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "38961198f751183418bf8e6b9ac79de46603cdc60d293b3c2941a3c5ec7d882e",
+          "version_id": "FIN-002-v1",
+          "score": 0.03007688828584351
+        },
+        {
+          "chunk_id": "b5927c54cb408214a64050b870cc9c374c4c48a77bf6efe1732e29b83471618b",
+          "version_id": "MGT-003-v1",
+          "score": 0.029211087420042643
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.02819138376017471
+        },
+        {
+          "chunk_id": "fea8a4bb8e3877ee258b2fbf36b5132d75233c35a4ba929b9e5596b4e146fcae",
+          "version_id": "FIN-001-v2",
+          "score": 0.028169014084507043
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q002",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7": "FIN-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "31a20b95cd2ee685e8f8da30345b40525fb4b189cee4b66f3374ce942f8bd6bf",
+          "version_id": "FIN-002-v1",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1",
+          "version_id": "FIN-001-v2",
+          "score": 0.030090497737556562
+        },
+        {
+          "chunk_id": "fea8a4bb8e3877ee258b2fbf36b5132d75233c35a4ba929b9e5596b4e146fcae",
+          "version_id": "FIN-001-v2",
+          "score": 0.028665028665028666
+        },
+        {
+          "chunk_id": "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27",
+          "version_id": "HR-001-v2",
+          "score": 0.02782608695652174
+        },
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.027783137179239824
+        },
+        {
+          "chunk_id": "19f3e05a3514d9a6bcd440fd91b3bb3b7813e2ff0a9376a6913eb15796232130",
+          "version_id": "FIN-002-v1",
+          "score": 0.027598020555767037
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q003",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "FIN-003-v1"
+      ],
+      "relevant_chunks": {
+        "19135743b0de999d917ea0cef2ec29d926f218b5e367280c8119e0b4566b6164": "FIN-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "19135743b0de999d917ea0cef2ec29d926f218b5e367280c8119e0b4566b6164",
+          "version_id": "FIN-003-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "3f84bb36e26c5f6dbabb24b916497496c300fe15db61d7ee8928d77a68958350",
+          "version_id": "FIN-003-v1",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "53b15130c964bbcdcf83ad1e4cd3a95f1f96b7b9808d6293b11584ed6a7447ca",
+          "version_id": "FIN-003-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "414200f339c2aefe07924cf91112419c656f8ba5deff0ea5820e1fcdee46559a",
+          "version_id": "FIN-003-v1",
+          "score": 0.03128054740957967
+        },
+        {
+          "chunk_id": "7e81336ef3e9c3abd44be96c5aa3e07119cf339b694e38bbb9e78d762ebb6149",
+          "version_id": "FIN-003-v1",
+          "score": 0.030798389007344232
+        },
+        {
+          "chunk_id": "02a16d49784d26c2ee533e205bab14a8de46c0d5f89c8d95558ee3ff9e4e1384",
+          "version_id": "FIN-003-v1",
+          "score": 0.03055037313432836
+        },
+        {
+          "chunk_id": "b5dd13453885158f60dbda5dfa7272814504e33a766d0173df6b75e45ecfc32d",
+          "version_id": "FIN-003-v1",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "baafb0a362969484b0c65af52bbf85f7e599f297711186ddd31084ebaea04a34",
+          "version_id": "FIN-003-v1",
+          "score": 0.029411764705882353
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q004",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "201d1bbb3bad7541e1e78d7e9a7ed11975e20e3f8a8b4ffc8f10e30378bd661f": "FIN-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "201d1bbb3bad7541e1e78d7e9a7ed11975e20e3f8a8b4ffc8f10e30378bd661f",
+          "version_id": "FIN-004-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "c9d693868e60c01c5cf3ad96bcd08d903a7d45ba066320c98449b0b2ff5a9ed7",
+          "version_id": "FIN-004-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "3ebec0dbdacc1162dca143d7e114e3f4c43c5b19be0ada79baa505f1057c664a",
+          "version_id": "FIN-004-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "d217689e276d676962f96c7fd673e275bd32ba3a505c12e349eed19c1eebd856",
+          "version_id": "FIN-004-v1",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "03a6061ac1f0f5c45e934009c96c345951b5b24661d9d4649d733d7cc4bce8e5",
+          "version_id": "FIN-004-v1",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "fa10f892f3f0ea9b56a76a4dccbe1a4b96e913fa3e32525527f0c5cde3de5846",
+          "version_id": "FIN-004-v1",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "9f17becc5e4dbf093c7c344e8abef20967c6be01e820f39a404d0711fa3efd79",
+          "version_id": "FIN-004-v1",
+          "score": 0.029857397504456328
+        },
+        {
+          "chunk_id": "23ac27eccc5b193063c99b94e971132dec454c8839b5e41c50e37c086aacd0b0",
+          "version_id": "FIN-004-v1",
+          "score": 0.029631255487269532
+        },
+        {
+          "chunk_id": "a5ada50704f22ccc956b1dbca91ed1685c70d74fa122ffb6273b53d9b1405ac9",
+          "version_id": "MGT-002-v1",
+          "score": 0.028373015873015873
+        },
+        {
+          "chunk_id": "7bb92fd99ab32fd78a5dc04f4aff088e0de4f5542c686ba1947b306c19791d4f",
+          "version_id": "ADM-001-v1",
+          "score": 0.026875901875901876
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q005",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "e9353979f489e0569f5a7ca23f743c2b1afeaebfd9d770e656e2fc8c696ca8ec": "HR-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "e9353979f489e0569f5a7ca23f743c2b1afeaebfd9d770e656e2fc8c696ca8ec",
+          "version_id": "HR-001-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "29b5fda214f3827e4a359c8f59b46e0148b1877178538dd24b0d5f47a5066adb",
+          "version_id": "HR-001-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27",
+          "version_id": "HR-001-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "10abb5db807ab38c61e08ddd7df67db06a87c0a3e15d5700a995d203f3dacce3",
+          "version_id": "HR-001-v2",
+          "score": 0.031009615384615385
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.030776515151515152
+        },
+        {
+          "chunk_id": "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592",
+          "version_id": "HR-002-v1",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "5b9992a4639694447f51d274162806b727ba28e4ef38027ffe3e6de052dfbe42",
+          "version_id": "HR-001-v2",
+          "score": 0.028814262023217248
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.028790389395194696
+        },
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.028370221327967807
+        },
+        {
+          "chunk_id": "385108281f965c5a5ba5aab6a21159a4653651beacd2d0febf3757e861a100e3",
+          "version_id": "HR-001-v2",
+          "score": 0.02782608695652174
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q006",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4": "HR-002-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "7c5bac623ce53cb4732b04f2866dce3b802dbf046cdcfd32dabaa1fca32adc7d",
+          "version_id": "HR-002-v1",
+          "score": 0.03128054740957967
+        },
+        {
+          "chunk_id": "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6",
+          "version_id": "SEC-002-v2",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "ae73db8c3ea052441be6ffcd45a35caa0a378d695a215aeb12775ddb1878605b",
+          "version_id": "HR-002-v1",
+          "score": 0.030834914611005692
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.029910714285714284
+        },
+        {
+          "chunk_id": "a2d6ce705daf959f28ff31c4f878e4718aeb638d340a9ba121affa577f2ef0ac",
+          "version_id": "HR-002-v1",
+          "score": 0.029709507042253523
+        },
+        {
+          "chunk_id": "2bb96ddd59f9f60d44a6236556ff772cf59998ae0b5fdd56ccc55125512275f5",
+          "version_id": "SEC-002-v2",
+          "score": 0.02904040404040404
+        },
+        {
+          "chunk_id": "48ef8e2248aad69b97baff6160aa9446b253f617397a36c77bc29341bd3a75e3",
+          "version_id": "FIN-002-v1",
+          "score": 0.029030910609857977
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.02862400327131466
+        },
+        {
+          "chunk_id": "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27",
+          "version_id": "HR-001-v2",
+          "score": 0.02782608695652174
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q007",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "485e0a315acdb0ae8aedec5c0ab2c4d1139ad69d3cfa2793c027c982301401dc": "HR-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "485e0a315acdb0ae8aedec5c0ab2c4d1139ad69d3cfa2793c027c982301401dc",
+          "version_id": "HR-003-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "4cd1ad2be0e2967f63db6c67e37508998f88c9063c6220783498ab1ffd3d19f3",
+          "version_id": "HR-003-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "d025dc1ef063a0e8a1a2b53e695a3c29a8edcde60e12af1945ae333a4cd0ea3f",
+          "version_id": "HR-003-v1",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.03036576949620428
+        },
+        {
+          "chunk_id": "9b3aadaf9ea1ac05384a7c23bd08b5a3f8fc8923346c30e2cab550b6aae4fb8b",
+          "version_id": "HR-003-v1",
+          "score": 0.02946912242686891
+        },
+        {
+          "chunk_id": "be222cdb712330a16e63c24be02138cfdb148a52269934d573a51b499bd1b094",
+          "version_id": "HR-003-v1",
+          "score": 0.0293236301369863
+        },
+        {
+          "chunk_id": "bcb323224a3bc808a39c7d6c8be6f20b88ef9e88db708248e4b6b3bd82cd3caf",
+          "version_id": "ADM-001-v1",
+          "score": 0.02904040404040404
+        },
+        {
+          "chunk_id": "16a54cf576e60fbdd316edd12c63a0d6a1a9f64520c398cb7cd048c5c0e10934",
+          "version_id": "HR-003-v1",
+          "score": 0.028790389395194696
+        },
+        {
+          "chunk_id": "6e49dc04cd050f6001db431082217c8aa26939d30b78b8372b4eb1a47d2e6eb9",
+          "version_id": "HR-003-v1",
+          "score": 0.028438886647841874
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q008",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "1a2df23203ec5fd8ffe6f117fdc4a21c7ea1634d004ecd86be59bc9c3ec9e1cc": "HR-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "1a2df23203ec5fd8ffe6f117fdc4a21c7ea1634d004ecd86be59bc9c3ec9e1cc",
+          "version_id": "HR-004-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "49c709105fcb5a2faea068822ab8df516cd2d770afd15fe5e85667dd98f437eb",
+          "version_id": "HR-004-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "396a1263d5c664f1bf3cc556d4c951c9b81b76de1cd13d8efdf7628504a16d5f",
+          "version_id": "HR-002-v1",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "ef9ad5922a872f146b7abdeaa0cbea39985a2203b0dff998ca871cfafcdb3163",
+          "version_id": "HR-004-v1",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "79ea59b23a8edd73c1b30f26ec94d81e7db0b641d0cf68f7fa9d351bc6cdec2b",
+          "version_id": "HR-004-v1",
+          "score": 0.029850746268656716
+        },
+        {
+          "chunk_id": "68695f7265c0af6266aa202e4cbb06d323b36a2f7ce2b8157f44beeff33cfa7c",
+          "version_id": "HR-004-v1",
+          "score": 0.029709507042253523
+        },
+        {
+          "chunk_id": "c89057d0c2f6be0c49f91b3e907da59e53db38427441e17b1a14b2da28e3b7d5",
+          "version_id": "HR-004-v1",
+          "score": 0.02967032967032967
+        },
+        {
+          "chunk_id": "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592",
+          "version_id": "HR-002-v1",
+          "score": 0.029206349206349208
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.02919863597612958
+        },
+        {
+          "chunk_id": "9e907ec4470a7af667bf5ff1528626103b579fc023c8d8539cdc11715eea0ad3",
+          "version_id": "HR-004-v1",
+          "score": 0.02668564312399929
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q009",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034": "PUR-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034",
+          "version_id": "PUR-001-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "ab9b3f61eb1165eadf8cf5c4c2f96f87b8c6706e27ce74e9c3ce19b5346d7cac",
+          "version_id": "PUR-001-v2",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.031746031746031744
+        },
+        {
+          "chunk_id": "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61",
+          "version_id": "PUR-003-v1",
+          "score": 0.030303030303030304
+        },
+        {
+          "chunk_id": "bd358c41a42502e546f27499e7d32dec03513106b5766cb65275ef8e5f7fa14d",
+          "version_id": "PUR-004-v1",
+          "score": 0.02967032967032967
+        },
+        {
+          "chunk_id": "b635a02daddfbaf73eb4c81d71ed1c08274e6f49870a3986ab0435a988d738c9",
+          "version_id": "PUR-001-v2",
+          "score": 0.0293236301369863
+        },
+        {
+          "chunk_id": "e915b0dbf95b840c20325d1728985622c51ccae503cc9a4e95f99a8b3c5aaa45",
+          "version_id": "PUR-001-v2",
+          "score": 0.0293236301369863
+        },
+        {
+          "chunk_id": "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8",
+          "version_id": "PUR-002-v1",
+          "score": 0.028985507246376812
+        },
+        {
+          "chunk_id": "4356138a9589ee89df99becfde0d64ffb445b93c7d4c31295ecf53c863e27582",
+          "version_id": "PUR-001-v2",
+          "score": 0.02871794871794872
+        },
+        {
+          "chunk_id": "3d93774315547f5f943778059ddde5aac6d00abd4110e26fe300d4ab14f77ae0",
+          "version_id": "PUR-003-v1",
+          "score": 0.026742734890354787
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q010",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8": "PUR-002-v1",
+        "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2": "PUR-002-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8",
+          "version_id": "PUR-002-v1",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "b0969985ac9486129b0151979076bc0a09b11d0a2858a63f4d45cdd252a403d9",
+          "version_id": "PUR-002-v1",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "e75a024ea2b28d21fc86cfb2b79e189afa8af3bfc1b1772cda33d1f273f3a8b3",
+          "version_id": "PUR-002-v1",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2",
+          "version_id": "PUR-002-v1",
+          "score": 0.03128054740957967
+        },
+        {
+          "chunk_id": "3870b30dca6206f6b1ad6d993ef75750963ad88f63b1900dfa54dbc98c27612f",
+          "version_id": "PUR-002-v1",
+          "score": 0.031009615384615385
+        },
+        {
+          "chunk_id": "0f8f75abdbb85a1933ec092c3709aa024a7d1bd44d8097d182b2212844a90182",
+          "version_id": "PUR-002-v1",
+          "score": 0.029631255487269532
+        },
+        {
+          "chunk_id": "4bb60a37725e89d6506e878e1585ae5cd04ffb8961647467aa22b64a827d0302",
+          "version_id": "PUR-002-v1",
+          "score": 0.029418126757516764
+        },
+        {
+          "chunk_id": "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034",
+          "version_id": "PUR-001-v2",
+          "score": 0.029236022193768675
+        },
+        {
+          "chunk_id": "e6e4b48d42bb7a28bc065c72a4957144252ba374841c53bb36415c87dafb588b",
+          "version_id": "PUR-002-v1",
+          "score": 0.0288981288981289
+        },
+        {
+          "chunk_id": "cf82e9d7640de4e981d13b374859c929db1b5ba049601e957c24a5385c3563a0",
+          "version_id": "PUR-001-v2",
+          "score": 0.027650648360030512
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2"
+          ]
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q011",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "96be7a49a778e1cb67eba95897d3b00b5987782feb92fee76bb1443f936fb814": "PUR-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "96be7a49a778e1cb67eba95897d3b00b5987782feb92fee76bb1443f936fb814",
+          "version_id": "PUR-003-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "3d93774315547f5f943778059ddde5aac6d00abd4110e26fe300d4ab14f77ae0",
+          "version_id": "PUR-003-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61",
+          "version_id": "PUR-003-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "a8030dac2f879917209d682ffb6c701a6ae3ccb40eff02a485dbcd62d685bda6",
+          "version_id": "PUR-003-v1",
+          "score": 0.02964426877470356
+        },
+        {
+          "chunk_id": "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034",
+          "version_id": "PUR-001-v2",
+          "score": 0.02946912242686891
+        },
+        {
+          "chunk_id": "3e2d3c4df0ee1a42056b040fe287613da40f2a59cba0f7a96838f3913558115b",
+          "version_id": "PUR-003-v1",
+          "score": 0.028814262023217248
+        },
+        {
+          "chunk_id": "961436d864850061bda76e70d8077e831bad802aeb2c0fd701262c0f6c7cdaea",
+          "version_id": "PUR-004-v1",
+          "score": 0.028373015873015873
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.027799227799227798
+        },
+        {
+          "chunk_id": "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2",
+          "version_id": "PUR-002-v1",
+          "score": 0.027031963470319637
+        },
+        {
+          "chunk_id": "2d34754da86d254808a9dc34428af2e28612333efd13310bf592a02e4e9cead2",
+          "version_id": "PUR-003-v1",
+          "score": 0.025978407557354925
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q012",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "c0dece2f206563f747aae2ccea4c06df9547d51d1db9649c770a752619dd9d3c": "PUR-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "c0dece2f206563f747aae2ccea4c06df9547d51d1db9649c770a752619dd9d3c",
+          "version_id": "PUR-004-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "65d64bc5c378a146eb437c5e28454b4668d42aefa435d328a0d4422d1cc67c63",
+          "version_id": "PUR-004-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "6c7af6839b2cfd9d348cc1b6d56a2b559b3886b2a302f01f563132e59b85cf32",
+          "version_id": "PUR-004-v1",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "9e13f0aed34dc5b88f5f41d60b9ab47ab1b4fe97ca863ecaf944bfb34c70b629",
+          "version_id": "PUR-004-v1",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "34ac8b9fdedff5da29da3741a6b784a980049755425fead3dd84fdbc78ace54e",
+          "version_id": "PUR-004-v1",
+          "score": 0.029030910609857977
+        },
+        {
+          "chunk_id": "961436d864850061bda76e70d8077e831bad802aeb2c0fd701262c0f6c7cdaea",
+          "version_id": "PUR-004-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "cf82e9d7640de4e981d13b374859c929db1b5ba049601e957c24a5385c3563a0",
+          "version_id": "PUR-001-v2",
+          "score": 0.0288981288981289
+        },
+        {
+          "chunk_id": "bd358c41a42502e546f27499e7d32dec03513106b5766cb65275ef8e5f7fa14d",
+          "version_id": "PUR-004-v1",
+          "score": 0.02877846790890269
+        },
+        {
+          "chunk_id": "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8",
+          "version_id": "PUR-002-v1",
+          "score": 0.02821939586645469
+        },
+        {
+          "chunk_id": "fe1095ee74a4faf5d29fd086333cfea2f8541f4b38721a3a6b57459ac4717f5d",
+          "version_id": "PUR-004-v1",
+          "score": 0.02761904761904762
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q013",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b": "SEC-001-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b",
+          "version_id": "SEC-001-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "ad8082dff01cf5ec09ba45f8161a3f9277462dc8692bbad31afff99b28554d7e",
+          "version_id": "SEC-001-v1",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "8ef02d16e408e8f5bf9fa3f622bb683724948c1e174edde19d85a35a8492e6de",
+          "version_id": "SEC-001-v1",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "3902759cc3c3040715280870194cbd0ab144702d02525aec3e9efa7c9984c89a",
+          "version_id": "SEC-001-v1",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0",
+          "version_id": "SEC-002-v2",
+          "score": 0.030776515151515152
+        },
+        {
+          "chunk_id": "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6",
+          "version_id": "SEC-002-v2",
+          "score": 0.02919863597612958
+        },
+        {
+          "chunk_id": "e916c11f23860447082f3a1cd15bd3dd2d31b753c04c65c8629fab95e831758d",
+          "version_id": "SEC-001-v1",
+          "score": 0.0288981288981289
+        },
+        {
+          "chunk_id": "e5b703d73f034a2285b41e43ff2d99e79851528bb3a79fd622ecf05cb9d519d6",
+          "version_id": "ADM-001-v1",
+          "score": 0.028790389395194696
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.02862400327131466
+        },
+        {
+          "chunk_id": "de60157be9e3733c3ba66e4116f7680de37e8c24f9c60fd56cc7ea466fa69d03",
+          "version_id": "SEC-002-v2",
+          "score": 0.028258706467661692
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q014",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0": "SEC-002-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0",
+          "version_id": "SEC-002-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6",
+          "version_id": "SEC-002-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "2bb96ddd59f9f60d44a6236556ff772cf59998ae0b5fdd56ccc55125512275f5",
+          "version_id": "SEC-002-v2",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93",
+          "version_id": "SEC-002-v2",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.030090497737556562
+        },
+        {
+          "chunk_id": "bcfb8b11740bf41d679bfd22779b3ee6daa01c39fab10d761c04349232bde988",
+          "version_id": "SEC-002-v2",
+          "score": 0.029850746268656716
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.029236022193768675
+        },
+        {
+          "chunk_id": "de60157be9e3733c3ba66e4116f7680de37e8c24f9c60fd56cc7ea466fa69d03",
+          "version_id": "SEC-002-v2",
+          "score": 0.02919863597612958
+        },
+        {
+          "chunk_id": "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b",
+          "version_id": "SEC-001-v1",
+          "score": 0.02782608695652174
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q015",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-001-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2",
+        "SEC-003-v1",
+        "SEC-004-v1"
+      ],
+      "relevant_chunks": {
+        "43c375ee5cd11d0d43451106abb70fc8cfe4f0cd2fa2afd293b9925caf68f88d": "SEC-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "43c375ee5cd11d0d43451106abb70fc8cfe4f0cd2fa2afd293b9925caf68f88d",
+          "version_id": "SEC-003-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "ab4072984bf85e46bb8a830b12b5b8fbabc116eeec323a22a7d5ef5f65e94398",
+          "version_id": "SEC-003-v1",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "0f8f75abdbb85a1933ec092c3709aa024a7d1bd44d8097d182b2212844a90182",
+          "version_id": "PUR-002-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "4703984fb3e5320d1f8c7eea1a13ce780768f49ef150514e5b3b528de690a349",
+          "version_id": "SEC-003-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "12c29af78435cf6feaff3aac5a8134a1d0e87b6b6290cdba007df3eb08d24db9",
+          "version_id": "MGT-001-v1",
+          "score": 0.0304147465437788
+        },
+        {
+          "chunk_id": "1a940a6881c35ab2865e8c40a08b1fc8d10a9cff419ea1a9e3389aa3ab447f6b",
+          "version_id": "MGT-001-v1",
+          "score": 0.02964426877470356
+        },
+        {
+          "chunk_id": "89ac815c7933cd5d4f2d16ebcabf97d3110429d50978424f53709839cbae860e",
+          "version_id": "SEC-004-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "adb53dd1547063d110d75d268fb83feb22600cbb649028f37469415dba942732",
+          "version_id": "SEC-003-v1",
+          "score": 0.027651515151515153
+        },
+        {
+          "chunk_id": "ae73db8c3ea052441be6ffcd45a35caa0a378d695a215aeb12775ddb1878605b",
+          "version_id": "HR-002-v1",
+          "score": 0.026500526500526502
+        },
+        {
+          "chunk_id": "d686d9eebc50bec7bc6e2273a83082c5f7232280eb3c7b7bad655fa88bb7dbac",
+          "version_id": "ADM-002-v1",
+          "score": 0.026356857985087564
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q016",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497": "FIN-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497",
+          "version_id": "FIN-001-v2",
+          "score": 0.032018442622950824
+        },
+        {
+          "chunk_id": "9878e777c8bf20b42ed194bd008e83752d4897ee259b8ce2375a0e21a73079dc",
+          "version_id": "FIN-001-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "b5927c54cb408214a64050b870cc9c374c4c48a77bf6efe1732e29b83471618b",
+          "version_id": "MGT-003-v1",
+          "score": 0.029857397504456328
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "385108281f965c5a5ba5aab6a21159a4653651beacd2d0febf3757e861a100e3",
+          "version_id": "HR-001-v2",
+          "score": 0.028991596638655463
+        },
+        {
+          "chunk_id": "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592",
+          "version_id": "HR-002-v1",
+          "score": 0.027777777777777776
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q020",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034": "PUR-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034",
+          "version_id": "PUR-001-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "ab9b3f61eb1165eadf8cf5c4c2f96f87b8c6706e27ce74e9c3ce19b5346d7cac",
+          "version_id": "PUR-001-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "4356138a9589ee89df99becfde0d64ffb445b93c7d4c31295ecf53c863e27582",
+          "version_id": "PUR-001-v2",
+          "score": 0.030621785881252923
+        },
+        {
+          "chunk_id": "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61",
+          "version_id": "PUR-003-v1",
+          "score": 0.030330882352941176
+        },
+        {
+          "chunk_id": "e915b0dbf95b840c20325d1728985622c51ccae503cc9a4e95f99a8b3c5aaa45",
+          "version_id": "PUR-001-v2",
+          "score": 0.029957522915269395
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.029910714285714284
+        },
+        {
+          "chunk_id": "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8",
+          "version_id": "PUR-002-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "e6e4b48d42bb7a28bc065c72a4957144252ba374841c53bb36415c87dafb588b",
+          "version_id": "PUR-002-v1",
+          "score": 0.028814262023217248
+        },
+        {
+          "chunk_id": "e916c11f23860447082f3a1cd15bd3dd2d31b753c04c65c8629fab95e831758d",
+          "version_id": "SEC-001-v1",
+          "score": 0.02804284323271665
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.026153846153846153
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q021",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8": "PUR-002-v1",
+        "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2": "PUR-002-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2",
+          "version_id": "PUR-002-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "01e4398c47014bf6e6c8dfbf56edaa5b35a38df50e920b1e957cb063b582c1d8",
+          "version_id": "PUR-002-v1",
+          "score": 0.016129032258064516
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.016129032258064516
+        },
+        {
+          "chunk_id": "b0969985ac9486129b0151979076bc0a09b11d0a2858a63f4d45cdd252a403d9",
+          "version_id": "PUR-002-v1",
+          "score": 0.015873015873015872
+        },
+        {
+          "chunk_id": "e75a024ea2b28d21fc86cfb2b79e189afa8af3bfc1b1772cda33d1f273f3a8b3",
+          "version_id": "PUR-002-v1",
+          "score": 0.015625
+        },
+        {
+          "chunk_id": "3870b30dca6206f6b1ad6d993ef75750963ad88f63b1900dfa54dbc98c27612f",
+          "version_id": "PUR-002-v1",
+          "score": 0.015384615384615385
+        },
+        {
+          "chunk_id": "0f8f75abdbb85a1933ec092c3709aa024a7d1bd44d8097d182b2212844a90182",
+          "version_id": "PUR-002-v1",
+          "score": 0.015151515151515152
+        },
+        {
+          "chunk_id": "bd358c41a42502e546f27499e7d32dec03513106b5766cb65275ef8e5f7fa14d",
+          "version_id": "PUR-004-v1",
+          "score": 0.014925373134328358
+        },
+        {
+          "chunk_id": "34ac8b9fdedff5da29da3741a6b784a980049755425fead3dd84fdbc78ace54e",
+          "version_id": "PUR-004-v1",
+          "score": 0.014705882352941176
+        },
+        {
+          "chunk_id": "cf82e9d7640de4e981d13b374859c929db1b5ba049601e957c24a5385c3563a0",
+          "version_id": "PUR-001-v2",
+          "score": 0.014492753623188406
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q022",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b": "SEC-001-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b",
+          "version_id": "SEC-001-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "ad8082dff01cf5ec09ba45f8161a3f9277462dc8692bbad31afff99b28554d7e",
+          "version_id": "SEC-001-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "9d921776ed95af4b8205af47384d34d933f89e39d64b8c320c1f6d0a8d4cd2a9",
+          "version_id": "ADM-002-v1",
+          "score": 0.01639344262295082
+        },
+        {
+          "chunk_id": "cc314336f80ebb1fb3d35532e29cb25b21c6051ae613bb43c3c452666931bb37",
+          "version_id": "HR-002-v1",
+          "score": 0.01639344262295082
+        },
+        {
+          "chunk_id": "972500baa10f1139de40608b965f1becc06289f319f9bb96074b5b87494d4d80",
+          "version_id": "ADM-002-v1",
+          "score": 0.015873015873015872
+        },
+        {
+          "chunk_id": "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1",
+          "version_id": "FIN-001-v2",
+          "score": 0.015625
+        },
+        {
+          "chunk_id": "8ef02d16e408e8f5bf9fa3f622bb683724948c1e174edde19d85a35a8492e6de",
+          "version_id": "SEC-001-v1",
+          "score": 0.015625
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.015384615384615385
+        },
+        {
+          "chunk_id": "eb8a49b64372c935e53c92d69e4ec7e244f09413a3bbe2a3584ec0f9d76b8b29",
+          "version_id": "ADM-002-v1",
+          "score": 0.015151515151515152
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.014925373134328358
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q023",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0": "SEC-002-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6",
+          "version_id": "SEC-002-v2",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0",
+          "version_id": "SEC-002-v2",
+          "score": 0.032018442622950824
+        },
+        {
+          "chunk_id": "2bb96ddd59f9f60d44a6236556ff772cf59998ae0b5fdd56ccc55125512275f5",
+          "version_id": "SEC-002-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93",
+          "version_id": "SEC-002-v2",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.03055037313432836
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "bcfb8b11740bf41d679bfd22779b3ee6daa01c39fab10d761c04349232bde988",
+          "version_id": "SEC-002-v2",
+          "score": 0.029437229437229435
+        },
+        {
+          "chunk_id": "de60157be9e3733c3ba66e4116f7680de37e8c24f9c60fd56cc7ea466fa69d03",
+          "version_id": "SEC-002-v2",
+          "score": 0.028594771241830064
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.027650648360030512
+        },
+        {
+          "chunk_id": "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b",
+          "version_id": "SEC-001-v1",
+          "score": 0.015151515151515152
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q024",
+      "expected_behavior": "partial_answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7": "FIN-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497",
+          "version_id": "FIN-001-v2",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "9878e777c8bf20b42ed194bd008e83752d4897ee259b8ce2375a0e21a73079dc",
+          "version_id": "FIN-001-v2",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.03057889822595705
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.030536130536130537
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.03007688828584351
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.0293236301369863
+        },
+        {
+          "chunk_id": "38961198f751183418bf8e6b9ac79de46603cdc60d293b3c2941a3c5ec7d882e",
+          "version_id": "FIN-002-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1",
+          "version_id": "FIN-001-v2",
+          "score": 0.02877846790890269
+        },
+        {
+          "chunk_id": "31a20b95cd2ee685e8f8da30345b40525fb4b189cee4b66f3374ce942f8bd6bf",
+          "version_id": "FIN-002-v1",
+          "score": 0.028381642512077296
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q025",
+      "expected_behavior": "partial_answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "1a2df23203ec5fd8ffe6f117fdc4a21c7ea1634d004ecd86be59bc9c3ec9e1cc": "HR-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "1a2df23203ec5fd8ffe6f117fdc4a21c7ea1634d004ecd86be59bc9c3ec9e1cc",
+          "version_id": "HR-004-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "49c709105fcb5a2faea068822ab8df516cd2d770afd15fe5e85667dd98f437eb",
+          "version_id": "HR-004-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "ef9ad5922a872f146b7abdeaa0cbea39985a2203b0dff998ca871cfafcdb3163",
+          "version_id": "HR-004-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "396a1263d5c664f1bf3cc556d4c951c9b81b76de1cd13d8efdf7628504a16d5f",
+          "version_id": "HR-002-v1",
+          "score": 0.03055037313432836
+        },
+        {
+          "chunk_id": "68695f7265c0af6266aa202e4cbb06d323b36a2f7ce2b8157f44beeff33cfa7c",
+          "version_id": "HR-004-v1",
+          "score": 0.02946912242686891
+        },
+        {
+          "chunk_id": "79ea59b23a8edd73c1b30f26ec94d81e7db0b641d0cf68f7fa9d351bc6cdec2b",
+          "version_id": "HR-004-v1",
+          "score": 0.029437229437229435
+        },
+        {
+          "chunk_id": "c89057d0c2f6be0c49f91b3e907da59e53db38427441e17b1a14b2da28e3b7d5",
+          "version_id": "HR-004-v1",
+          "score": 0.029138513513513514
+        },
+        {
+          "chunk_id": "560b843303ee6de6c19b8a2496bfadf7bc684c526aa6744b6e5082e0a7ddd029",
+          "version_id": "HR-004-v1",
+          "score": 0.028814262023217248
+        },
+        {
+          "chunk_id": "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592",
+          "version_id": "HR-002-v1",
+          "score": 0.028531243721117136
+        },
+        {
+          "chunk_id": "7bb92fd99ab32fd78a5dc04f4aff088e0de4f5542c686ba1947b306c19791d4f",
+          "version_id": "ADM-001-v1",
+          "score": 0.027526395173453996
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q026",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7": "FIN-001-v2",
+        "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1": "FIN-001-v2",
+        "48ef8e2248aad69b97baff6160aa9446b253f617397a36c77bc29341bd3a75e3": "FIN-002-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1",
+          "version_id": "FIN-001-v2",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "48ef8e2248aad69b97baff6160aa9446b253f617397a36c77bc29341bd3a75e3",
+          "version_id": "FIN-002-v1",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.03055037313432836
+        },
+        {
+          "chunk_id": "fea8a4bb8e3877ee258b2fbf36b5132d75233c35a4ba929b9e5596b4e146fcae",
+          "version_id": "FIN-001-v2",
+          "score": 0.02946912242686891
+        },
+        {
+          "chunk_id": "19f3e05a3514d9a6bcd440fd91b3bb3b7813e2ff0a9376a6913eb15796232130",
+          "version_id": "FIN-002-v1",
+          "score": 0.029437229437229435
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.029138513513513514
+        },
+        {
+          "chunk_id": "38961198f751183418bf8e6b9ac79de46603cdc60d293b3c2941a3c5ec7d882e",
+          "version_id": "FIN-002-v1",
+          "score": 0.028991596638655463
+        },
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.0288981288981289
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.028814262023217248
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q027",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83": "FIN-002-v1",
+        "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7": "FIN-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "31a20b95cd2ee685e8f8da30345b40525fb4b189cee4b66f3374ce942f8bd6bf",
+          "version_id": "FIN-002-v1",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.032266458495966696
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1",
+          "version_id": "FIN-001-v2",
+          "score": 0.03055037313432836
+        },
+        {
+          "chunk_id": "38961198f751183418bf8e6b9ac79de46603cdc60d293b3c2941a3c5ec7d882e",
+          "version_id": "FIN-002-v1",
+          "score": 0.030090497737556562
+        },
+        {
+          "chunk_id": "fea8a4bb8e3877ee258b2fbf36b5132d75233c35a4ba929b9e5596b4e146fcae",
+          "version_id": "FIN-001-v2",
+          "score": 0.029437229437229435
+        },
+        {
+          "chunk_id": "32d6a44a278eb2c18aa6aee76e6a2859693dc7da3710cf53350d610dc599b814",
+          "version_id": "FIN-001-v2",
+          "score": 0.02919863597612958
+        },
+        {
+          "chunk_id": "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497",
+          "version_id": "FIN-001-v2",
+          "score": 0.028850145288501453
+        },
+        {
+          "chunk_id": "9878e777c8bf20b42ed194bd008e83752d4897ee259b8ce2375a0e21a73079dc",
+          "version_id": "FIN-001-v2",
+          "score": 0.028083267871170464
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7"
+          ]
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q028",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "485e0a315acdb0ae8aedec5c0ab2c4d1139ad69d3cfa2793c027c982301401dc": "HR-003-v1",
+        "9b3aadaf9ea1ac05384a7c23bd08b5a3f8fc8923346c30e2cab550b6aae4fb8b": "HR-003-v1",
+        "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2": "SEC-002-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "485e0a315acdb0ae8aedec5c0ab2c4d1139ad69d3cfa2793c027c982301401dc",
+          "version_id": "HR-003-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.031544957774465976
+        },
+        {
+          "chunk_id": "bcb323224a3bc808a39c7d6c8be6f20b88ef9e88db708248e4b6b3bd82cd3caf",
+          "version_id": "ADM-001-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "9b3aadaf9ea1ac05384a7c23bd08b5a3f8fc8923346c30e2cab550b6aae4fb8b",
+          "version_id": "HR-003-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "4cd1ad2be0e2967f63db6c67e37508998f88c9063c6220783498ab1ffd3d19f3",
+          "version_id": "HR-003-v1",
+          "score": 0.031099324975891997
+        },
+        {
+          "chunk_id": "be222cdb712330a16e63c24be02138cfdb148a52269934d573a51b499bd1b094",
+          "version_id": "HR-003-v1",
+          "score": 0.029857397504456328
+        },
+        {
+          "chunk_id": "6e49dc04cd050f6001db431082217c8aa26939d30b78b8372b4eb1a47d2e6eb9",
+          "version_id": "HR-003-v1",
+          "score": 0.029850746268656716
+        },
+        {
+          "chunk_id": "d025dc1ef063a0e8a1a2b53e695a3c29a8edcde60e12af1945ae333a4cd0ea3f",
+          "version_id": "HR-003-v1",
+          "score": 0.029709507042253523
+        },
+        {
+          "chunk_id": "830000deb6cb5b22aa6d87ce78ea2d7a87eb2726785486204ebd5f5b05e7d28e",
+          "version_id": "HR-003-v1",
+          "score": 0.0288981288981289
+        },
+        {
+          "chunk_id": "8ef02d16e408e8f5bf9fa3f622bb683724948c1e174edde19d85a35a8492e6de",
+          "version_id": "SEC-001-v1",
+          "score": 0.02632034632034632
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "9b3aadaf9ea1ac05384a7c23bd08b5a3f8fc8923346c30e2cab550b6aae4fb8b"
+          ]
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q029",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-001-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2",
+        "SEC-003-v1",
+        "SEC-004-v1"
+      ],
+      "relevant_chunks": {
+        "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61": "PUR-003-v1",
+        "5685a198dd4e520d958c84a490ea8f82e4906abfd0947863b7dff27b23112ab1": "PUR-003-v1",
+        "07275865310898020e49ea1600db03fe7c61a404325fe29ffb9096a22fde3418": "ADM-004-v1",
+        "062808997c7401185b64794a6a27eb74db58b0505605eeb5f0309904dd1ddb3a": "ADM-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "5685a198dd4e520d958c84a490ea8f82e4906abfd0947863b7dff27b23112ab1",
+          "version_id": "PUR-003-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "3d93774315547f5f943778059ddde5aac6d00abd4110e26fe300d4ab14f77ae0",
+          "version_id": "PUR-003-v1",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61",
+          "version_id": "PUR-003-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "3e2d3c4df0ee1a42056b040fe287613da40f2a59cba0f7a96838f3913558115b",
+          "version_id": "PUR-003-v1",
+          "score": 0.03128054740957967
+        },
+        {
+          "chunk_id": "96be7a49a778e1cb67eba95897d3b00b5987782feb92fee76bb1443f936fb814",
+          "version_id": "PUR-003-v1",
+          "score": 0.030776515151515152
+        },
+        {
+          "chunk_id": "a8030dac2f879917209d682ffb6c701a6ae3ccb40eff02a485dbcd62d685bda6",
+          "version_id": "PUR-003-v1",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "07275865310898020e49ea1600db03fe7c61a404325fe29ffb9096a22fde3418",
+          "version_id": "ADM-004-v1",
+          "score": 0.02967032967032967
+        },
+        {
+          "chunk_id": "2d34754da86d254808a9dc34428af2e28612333efd13310bf592a02e4e9cead2",
+          "version_id": "PUR-003-v1",
+          "score": 0.028814262023217248
+        },
+        {
+          "chunk_id": "972e7412e08e9fc4c2d855b38a24ead008214740a2fc86ed40635a19e64cf477",
+          "version_id": "PUR-003-v1",
+          "score": 0.02819138376017471
+        },
+        {
+          "chunk_id": "baafb0a362969484b0c65af52bbf85f7e599f297711186ddd31084ebaea04a34",
+          "version_id": "FIN-003-v1",
+          "score": 0.02803921568627451
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "062808997c7401185b64794a6a27eb74db58b0505605eeb5f0309904dd1ddb3a",
+            "07275865310898020e49ea1600db03fe7c61a404325fe29ffb9096a22fde3418"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "062808997c7401185b64794a6a27eb74db58b0505605eeb5f0309904dd1ddb3a",
+            "07275865310898020e49ea1600db03fe7c61a404325fe29ffb9096a22fde3418"
+          ]
+        },
+        "10": {
+          "recall": 0.75,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "062808997c7401185b64794a6a27eb74db58b0505605eeb5f0309904dd1ddb3a"
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "Q030",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "961436d864850061bda76e70d8077e831bad802aeb2c0fd701262c0f6c7cdaea": "PUR-004-v1",
+        "1faf48f80aa9b33dfad1f59d0b998ed619a10a99356c58a7241b46ed4b519d4b": "ADM-003-v1",
+        "f1eaabce49b0fadee966bc8409e5dc0bd69a7ad15a558a818997892f0c451cfe": "ADM-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "f1eaabce49b0fadee966bc8409e5dc0bd69a7ad15a558a818997892f0c451cfe",
+          "version_id": "ADM-003-v1",
+          "score": 0.03177805800756621
+        },
+        {
+          "chunk_id": "8e757c53a7ec7bb685f2e07afb5704ff97d0b18f1a715e609d0d578c0ae75fb5",
+          "version_id": "ADM-003-v1",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "961436d864850061bda76e70d8077e831bad802aeb2c0fd701262c0f6c7cdaea",
+          "version_id": "PUR-004-v1",
+          "score": 0.031544957774465976
+        },
+        {
+          "chunk_id": "1faf48f80aa9b33dfad1f59d0b998ed619a10a99356c58a7241b46ed4b519d4b",
+          "version_id": "ADM-003-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "65d64bc5c378a146eb437c5e28454b4668d42aefa435d328a0d4422d1cc67c63",
+          "version_id": "PUR-004-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "c3bf7553438bb8456ce860cbbf752e1d8d20a7757207df38ca56de9e5feea443",
+          "version_id": "ADM-003-v1",
+          "score": 0.031054405392392875
+        },
+        {
+          "chunk_id": "84de44cb895da43ea2ce3c3f2b7514ed3a897769fb507f4ca9ffc2fdb9d399b3",
+          "version_id": "ADM-003-v1",
+          "score": 0.029437229437229435
+        },
+        {
+          "chunk_id": "120b61a5e1452b84bf0f8af285e86e904ee0d7d3e6308af645fcf30736e9f5d5",
+          "version_id": "ADM-003-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "61423d83de7634010a2b1f7ec7567058c87e01e1e89e996e38432c3f42e2cfa4",
+          "version_id": "ADM-003-v1",
+          "score": 0.028594771241830064
+        },
+        {
+          "chunk_id": "9e13f0aed34dc5b88f5f41d60b9ab47ab1b4fe97ca863ecaf944bfb34c70b629",
+          "version_id": "PUR-004-v1",
+          "score": 0.02819138376017471
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "1faf48f80aa9b33dfad1f59d0b998ed619a10a99356c58a7241b46ed4b519d4b"
+          ]
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q031",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-001-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2",
+        "SEC-003-v1",
+        "SEC-004-v1"
+      ],
+      "relevant_chunks": {
+        "8ef02d16e408e8f5bf9fa3f622bb683724948c1e174edde19d85a35a8492e6de": "SEC-001-v1",
+        "89ac815c7933cd5d4f2d16ebcabf97d3110429d50978424f53709839cbae860e": "SEC-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "89ac815c7933cd5d4f2d16ebcabf97d3110429d50978424f53709839cbae860e",
+          "version_id": "SEC-004-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "8ef02d16e408e8f5bf9fa3f622bb683724948c1e174edde19d85a35a8492e6de",
+          "version_id": "SEC-001-v1",
+          "score": 0.032018442622950824
+        },
+        {
+          "chunk_id": "282522574189d93baeab737c9ecf597ee249faa4f0182499f3f0a5031fecb1e6",
+          "version_id": "SEC-004-v1",
+          "score": 0.029957522915269395
+        },
+        {
+          "chunk_id": "ad8082dff01cf5ec09ba45f8161a3f9277462dc8692bbad31afff99b28554d7e",
+          "version_id": "SEC-001-v1",
+          "score": 0.029083245521601686
+        },
+        {
+          "chunk_id": "9b3aadaf9ea1ac05384a7c23bd08b5a3f8fc8923346c30e2cab550b6aae4fb8b",
+          "version_id": "HR-003-v1",
+          "score": 0.028991596638655463
+        },
+        {
+          "chunk_id": "3902759cc3c3040715280870194cbd0ab144702d02525aec3e9efa7c9984c89a",
+          "version_id": "SEC-001-v1",
+          "score": 0.028083267871170464
+        },
+        {
+          "chunk_id": "db53b0ec31dd90b9119955142b1e90c573c5d26b36f8605cc94e05f734e3e213",
+          "version_id": "SEC-004-v1",
+          "score": 0.02803921568627451
+        },
+        {
+          "chunk_id": "e5b703d73f034a2285b41e43ff2d99e79851528bb3a79fd622ecf05cb9d519d6",
+          "version_id": "ADM-001-v1",
+          "score": 0.02694394213381555
+        },
+        {
+          "chunk_id": "c89057d0c2f6be0c49f91b3e907da59e53db38427441e17b1a14b2da28e3b7d5",
+          "version_id": "HR-004-v1",
+          "score": 0.02564102564102564
+        },
+        {
+          "chunk_id": "68ae9fe0d5a926f4982c3ba1d64ce65fe8542f7b8367535ae45857b84708b7af",
+          "version_id": "SEC-004-v1",
+          "score": 0.016129032258064516
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q032",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "23ac27eccc5b193063c99b94e971132dec454c8839b5e41c50e37c086aacd0b0": "FIN-004-v1",
+        "19135743b0de999d917ea0cef2ec29d926f218b5e367280c8119e0b4566b6164": "FIN-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "414200f339c2aefe07924cf91112419c656f8ba5deff0ea5820e1fcdee46559a",
+          "version_id": "FIN-003-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "02a16d49784d26c2ee533e205bab14a8de46c0d5f89c8d95558ee3ff9e4e1384",
+          "version_id": "FIN-003-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "53b15130c964bbcdcf83ad1e4cd3a95f1f96b7b9808d6293b11584ed6a7447ca",
+          "version_id": "FIN-003-v1",
+          "score": 0.030886196246139225
+        },
+        {
+          "chunk_id": "23ac27eccc5b193063c99b94e971132dec454c8839b5e41c50e37c086aacd0b0",
+          "version_id": "FIN-004-v1",
+          "score": 0.03036576949620428
+        },
+        {
+          "chunk_id": "30cddc8beaff7373d075c70bcb8b2d8a00206b9bc107982ce763456fbf481394",
+          "version_id": "FIN-002-v1",
+          "score": 0.030303030303030304
+        },
+        {
+          "chunk_id": "19135743b0de999d917ea0cef2ec29d926f218b5e367280c8119e0b4566b6164",
+          "version_id": "FIN-003-v1",
+          "score": 0.029906956136464335
+        },
+        {
+          "chunk_id": "7e81336ef3e9c3abd44be96c5aa3e07119cf339b694e38bbb9e78d762ebb6149",
+          "version_id": "FIN-003-v1",
+          "score": 0.029513888888888888
+        },
+        {
+          "chunk_id": "c9d693868e60c01c5cf3ad96bcd08d903a7d45ba066320c98449b0b2ff5a9ed7",
+          "version_id": "FIN-004-v1",
+          "score": 0.028594771241830064
+        },
+        {
+          "chunk_id": "3f84bb36e26c5f6dbabb24b916497496c300fe15db61d7ee8928d77a68958350",
+          "version_id": "FIN-003-v1",
+          "score": 0.028404512489927477
+        },
+        {
+          "chunk_id": "03a6061ac1f0f5c45e934009c96c345951b5b24661d9d4649d733d7cc4bce8e5",
+          "version_id": "FIN-004-v1",
+          "score": 0.028371628371628373
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.0,
+          "reciprocal_rank": 0.0,
+          "missing_chunk_ids": [
+            "19135743b0de999d917ea0cef2ec29d926f218b5e367280c8119e0b4566b6164",
+            "23ac27eccc5b193063c99b94e971132dec454c8839b5e41c50e37c086aacd0b0"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.25,
+          "missing_chunk_ids": [
+            "19135743b0de999d917ea0cef2ec29d926f218b5e367280c8119e0b4566b6164"
+          ]
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 0.25,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q033",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034": "PUR-001-v2",
+        "bd358c41a42502e546f27499e7d32dec03513106b5766cb65275ef8e5f7fa14d": "PUR-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "bd358c41a42502e546f27499e7d32dec03513106b5766cb65275ef8e5f7fa14d",
+          "version_id": "PUR-004-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "13868e1a0741d897006826a9ca838071f2bd8964cea098c3675806a36509b034",
+          "version_id": "PUR-001-v2",
+          "score": 0.031754032258064516
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.031746031746031744
+        },
+        {
+          "chunk_id": "c4fb4e70260b42c3cf7b19841c33e9e356e10e933ea40d59d6e1b540f7ddfcba",
+          "version_id": "ADM-001-v1",
+          "score": 0.03076923076923077
+        },
+        {
+          "chunk_id": "e915b0dbf95b840c20325d1728985622c51ccae503cc9a4e95f99a8b3c5aaa45",
+          "version_id": "PUR-001-v2",
+          "score": 0.029906956136464335
+        },
+        {
+          "chunk_id": "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61",
+          "version_id": "PUR-003-v1",
+          "score": 0.029418126757516764
+        },
+        {
+          "chunk_id": "ab9b3f61eb1165eadf8cf5c4c2f96f87b8c6706e27ce74e9c3ce19b5346d7cac",
+          "version_id": "PUR-001-v2",
+          "score": 0.029418126757516764
+        },
+        {
+          "chunk_id": "4356138a9589ee89df99becfde0d64ffb445b93c7d4c31295ecf53c863e27582",
+          "version_id": "PUR-001-v2",
+          "score": 0.028958333333333336
+        },
+        {
+          "chunk_id": "9e13f0aed34dc5b88f5f41d60b9ab47ab1b4fe97ca863ecaf944bfb34c70b629",
+          "version_id": "PUR-004-v1",
+          "score": 0.02821939586645469
+        },
+        {
+          "chunk_id": "3e2d3c4df0ee1a42056b040fe287613da40f2a59cba0f7a96838f3913558115b",
+          "version_id": "PUR-003-v1",
+          "score": 0.02813852813852814
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q034",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27": "HR-001-v2",
+        "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592": "HR-002-v1",
+        "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff": "MGT-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592",
+          "version_id": "HR-002-v1",
+          "score": 0.032018442622950824
+        },
+        {
+          "chunk_id": "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27",
+          "version_id": "HR-001-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "10abb5db807ab38c61e08ddd7df67db06a87c0a3e15d5700a995d203f3dacce3",
+          "version_id": "HR-001-v2",
+          "score": 0.03177805800756621
+        },
+        {
+          "chunk_id": "29b5fda214f3827e4a359c8f59b46e0148b1877178538dd24b0d5f47a5066adb",
+          "version_id": "HR-001-v2",
+          "score": 0.0315136476426799
+        },
+        {
+          "chunk_id": "e9353979f489e0569f5a7ca23f743c2b1afeaebfd9d770e656e2fc8c696ca8ec",
+          "version_id": "HR-001-v2",
+          "score": 0.03007688828584351
+        },
+        {
+          "chunk_id": "11c1b4e69459dbed727fa6e94867b54cb6475ad47083909a34674a237a7cf514",
+          "version_id": "HR-001-v2",
+          "score": 0.029709507042253523
+        },
+        {
+          "chunk_id": "396a1263d5c664f1bf3cc556d4c951c9b81b76de1cd13d8efdf7628504a16d5f",
+          "version_id": "HR-002-v1",
+          "score": 0.029631255487269532
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.029030910609857977
+        },
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.02877846790890269
+        },
+        {
+          "chunk_id": "385108281f965c5a5ba5aab6a21159a4653651beacd2d0febf3757e861a100e3",
+          "version_id": "HR-001-v2",
+          "score": 0.028577260665441927
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff"
+          ]
+        },
+        "5": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff"
+          ]
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q035",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-001-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2",
+        "SEC-003-v1",
+        "SEC-004-v1"
+      ],
+      "relevant_chunks": {
+        "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309": "FIN-001-v2",
+        "6c440989b52a5f033d38443ffc4db28fcfdeb3b76801f708e2539cea943778a4": "MGT-001-v1",
+        "8b2b95b4e358691d179515d22a4f017cb2d6afe87804b1c47a9e77015b27667f": "MGT-001-v1",
+        "12c29af78435cf6feaff3aac5a8134a1d0e87b6b6290cdba007df3eb08d24db9": "MGT-001-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "6c440989b52a5f033d38443ffc4db28fcfdeb3b76801f708e2539cea943778a4",
+          "version_id": "MGT-001-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "1a940a6881c35ab2865e8c40a08b1fc8d10a9cff419ea1a9e3389aa3ab447f6b",
+          "version_id": "MGT-001-v1",
+          "score": 0.032018442622950824
+        },
+        {
+          "chunk_id": "8b2b95b4e358691d179515d22a4f017cb2d6afe87804b1c47a9e77015b27667f",
+          "version_id": "MGT-001-v1",
+          "score": 0.032018442622950824
+        },
+        {
+          "chunk_id": "0f8f75abdbb85a1933ec092c3709aa024a7d1bd44d8097d182b2212844a90182",
+          "version_id": "PUR-002-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.029631255487269532
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.028693528693528692
+        },
+        {
+          "chunk_id": "43c375ee5cd11d0d43451106abb70fc8cfe4f0cd2fa2afd293b9925caf68f88d",
+          "version_id": "SEC-003-v1",
+          "score": 0.028577260665441927
+        },
+        {
+          "chunk_id": "8de68d04ba5ec1e08b9a5eaf9a4a52f8c146f28302f0bb0652029d94aa0b8230",
+          "version_id": "MGT-001-v1",
+          "score": 0.027912386121341344
+        },
+        {
+          "chunk_id": "ef9ad5922a872f146b7abdeaa0cbea39985a2203b0dff998ca871cfafcdb3163",
+          "version_id": "HR-004-v1",
+          "score": 0.027402402402402402
+        },
+        {
+          "chunk_id": "12c29af78435cf6feaff3aac5a8134a1d0e87b6b6290cdba007df3eb08d24db9",
+          "version_id": "MGT-001-v1",
+          "score": 0.015384615384615385
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "12c29af78435cf6feaff3aac5a8134a1d0e87b6b6290cdba007df3eb08d24db9",
+            "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "12c29af78435cf6feaff3aac5a8134a1d0e87b6b6290cdba007df3eb08d24db9",
+            "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309"
+          ]
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q037",
+      "expected_behavior": "report_conflict",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9": "FIN-001-v2",
+        "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff": "MGT-003-v1",
+        "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237": "MGT-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "9878e777c8bf20b42ed194bd008e83752d4897ee259b8ce2375a0e21a73079dc",
+          "version_id": "FIN-001-v2",
+          "score": 0.031746031746031744
+        },
+        {
+          "chunk_id": "b5927c54cb408214a64050b870cc9c374c4c48a77bf6efe1732e29b83471618b",
+          "version_id": "MGT-003-v1",
+          "score": 0.030330882352941176
+        },
+        {
+          "chunk_id": "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497",
+          "version_id": "FIN-001-v2",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.029857397504456328
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.02946912242686891
+        },
+        {
+          "chunk_id": "7bb92fd99ab32fd78a5dc04f4aff088e0de4f5542c686ba1947b306c19791d4f",
+          "version_id": "ADM-001-v1",
+          "score": 0.028850145288501453
+        },
+        {
+          "chunk_id": "332c7e5ed42476e0b8d6305537c208d0e2d9663c87fdb3ffa1bfa693e04eee5e",
+          "version_id": "ADM-001-v1",
+          "score": 0.02804284323271665
+        },
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.02649122807017544
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        },
+        "5": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        },
+        "10": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        }
+      }
+    },
+    {
+      "question_id": "Q039",
+      "expected_behavior": "report_conflict",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27": "HR-001-v2",
+        "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff": "MGT-003-v1",
+        "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237": "MGT-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "10abb5db807ab38c61e08ddd7df67db06a87c0a3e15d5700a995d203f3dacce3",
+          "version_id": "HR-001-v2",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "e39087d2975c0944e3f527e5cf6997093d968f55b6513980854483914f98dc27",
+          "version_id": "HR-001-v2",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "29b5fda214f3827e4a359c8f59b46e0148b1877178538dd24b0d5f47a5066adb",
+          "version_id": "HR-001-v2",
+          "score": 0.03076923076923077
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.030158730158730156
+        },
+        {
+          "chunk_id": "e9353979f489e0569f5a7ca23f743c2b1afeaebfd9d770e656e2fc8c696ca8ec",
+          "version_id": "HR-001-v2",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "396a1263d5c664f1bf3cc556d4c951c9b81b76de1cd13d8efdf7628504a16d5f",
+          "version_id": "HR-002-v1",
+          "score": 0.029418126757516764
+        },
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.027692895339954164
+        },
+        {
+          "chunk_id": "24364bf5ca087475cb876ffe3dca524c3cb1165f81a17ff4618afb054e742592",
+          "version_id": "HR-002-v1",
+          "score": 0.027651515151515153
+        },
+        {
+          "chunk_id": "385108281f965c5a5ba5aab6a21159a4653651beacd2d0febf3757e861a100e3",
+          "version_id": "HR-001-v2",
+          "score": 0.027526395173453996
+        },
+        {
+          "chunk_id": "15db299e3758c3fad22ad07141bd2c92118ea97704f715cf796682199e2cce80",
+          "version_id": "ADM-002-v1",
+          "score": 0.027402402402402402
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.3333333333333333,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": false
+        },
+        "5": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        },
+        "10": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        }
+      }
+    },
+    {
+      "question_id": "Q040",
+      "expected_behavior": "partial_answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-001-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2",
+        "SEC-003-v1",
+        "SEC-004-v1"
+      ],
+      "relevant_chunks": {
+        "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6": "SEC-002-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6",
+          "version_id": "SEC-002-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "2bb96ddd59f9f60d44a6236556ff772cf59998ae0b5fdd56ccc55125512275f5",
+          "version_id": "SEC-002-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0",
+          "version_id": "SEC-002-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "05377ebf4e8b21569085e3df532a7553ecae28fd687cf50ae8aa8bfb257b683b",
+          "version_id": "SEC-001-v1",
+          "score": 0.03055037313432836
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.030330882352941176
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.029877369007803793
+        },
+        {
+          "chunk_id": "e916c11f23860447082f3a1cd15bd3dd2d31b753c04c65c8629fab95e831758d",
+          "version_id": "SEC-001-v1",
+          "score": 0.02967032967032967
+        },
+        {
+          "chunk_id": "282522574189d93baeab737c9ecf597ee249faa4f0182499f3f0a5031fecb1e6",
+          "version_id": "SEC-004-v1",
+          "score": 0.029437229437229435
+        },
+        {
+          "chunk_id": "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93",
+          "version_id": "SEC-002-v2",
+          "score": 0.028665028665028666
+        },
+        {
+          "chunk_id": "bcfb8b11740bf41d679bfd22779b3ee6daa01c39fab10d761c04349232bde988",
+          "version_id": "SEC-002-v2",
+          "score": 0.025833333333333333
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q041",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v1",
+        "FIN-002-v1",
+        "HR-001-v1",
+        "HR-002-v1",
+        "SEC-001-v1",
+        "SEC-002-v1"
+      ],
+      "relevant_chunks": {
+        "bbaf69bfdeaea0c40499ece9357c0ce26b9dd4769a1b2e9f27e3cf564e8810cf": "FIN-001-v1",
+        "e9f73bb61f0be80700aaaa99557bd2cd40119b13727b36792f93de9b87ddbab0": "FIN-001-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "bbaf69bfdeaea0c40499ece9357c0ce26b9dd4769a1b2e9f27e3cf564e8810cf",
+          "version_id": "FIN-001-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "6ba86210e3dd5c2c88acef9d4fc42b7a5ffbbc7b70c71721cab5f30962d74ef6",
+          "version_id": "FIN-001-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "5fe6dfeca88513b210bcd4ba96994811f21044edcc31ec25913fb0fc562db0ed",
+          "version_id": "FIN-001-v1",
+          "score": 0.031746031746031744
+        },
+        {
+          "chunk_id": "1e548ba6aa2aabceda01bb6643eecca837ac426de792981a124284c762f2d5a2",
+          "version_id": "FIN-001-v1",
+          "score": 0.031009615384615385
+        },
+        {
+          "chunk_id": "2da32ca496c94df79da5e127f7c281d4829c45542d4ebab0720b15a49ddbe934",
+          "version_id": "FIN-001-v1",
+          "score": 0.031009615384615385
+        },
+        {
+          "chunk_id": "38961198f751183418bf8e6b9ac79de46603cdc60d293b3c2941a3c5ec7d882e",
+          "version_id": "FIN-002-v1",
+          "score": 0.030303030303030304
+        },
+        {
+          "chunk_id": "70ffa2bd3c0977af76487a7414b787e17cba91641ae53e0c61ba7b316d17ed6e",
+          "version_id": "FIN-001-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "e9f73bb61f0be80700aaaa99557bd2cd40119b13727b36792f93de9b87ddbab0",
+          "version_id": "FIN-001-v1",
+          "score": 0.028083267871170464
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.027526395173453996
+        },
+        {
+          "chunk_id": "19bad1fa99963b81a532e3b9d951cc8ab8b8fa59fc63e7a0e3ea5df70ccb2099",
+          "version_id": "FIN-001-v1",
+          "score": 0.027402402402402402
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "e9f73bb61f0be80700aaaa99557bd2cd40119b13727b36792f93de9b87ddbab0"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "e9f73bb61f0be80700aaaa99557bd2cd40119b13727b36792f93de9b87ddbab0"
+          ]
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q042",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497": "FIN-001-v2",
+        "32d6a44a278eb2c18aa6aee76e6a2859693dc7da3710cf53350d610dc599b814": "FIN-001-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "0ba0d52876fd6f732ad2eeb1e376ae07a934ddede59290554d7245716d131497",
+          "version_id": "FIN-001-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "9878e777c8bf20b42ed194bd008e83752d4897ee259b8ce2375a0e21a73079dc",
+          "version_id": "FIN-001-v2",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "92fc6d21665aa6f13ad803517e2113142a849e2b3780491b9d5f1ac91e049bc9",
+          "version_id": "FIN-001-v2",
+          "score": 0.031746031746031744
+        },
+        {
+          "chunk_id": "66fcb1332331059ecdfb2a195daee5563cd0b06d181f3d84dbad34eee927b309",
+          "version_id": "FIN-001-v2",
+          "score": 0.031009615384615385
+        },
+        {
+          "chunk_id": "2b87da00c79c045b2152e0a441933f20d1f061a291eab538e92aad75184b9ef7",
+          "version_id": "FIN-001-v2",
+          "score": 0.030776515151515152
+        },
+        {
+          "chunk_id": "38961198f751183418bf8e6b9ac79de46603cdc60d293b3c2941a3c5ec7d882e",
+          "version_id": "FIN-002-v1",
+          "score": 0.030309988518943745
+        },
+        {
+          "chunk_id": "7c65233d66a8507a09e77a592b678c34b2dbe9da8bad0edb005e6c67a62911b1",
+          "version_id": "FIN-001-v2",
+          "score": 0.028850145288501453
+        },
+        {
+          "chunk_id": "fea8a4bb8e3877ee258b2fbf36b5132d75233c35a4ba929b9e5596b4e146fcae",
+          "version_id": "FIN-001-v2",
+          "score": 0.028594771241830064
+        },
+        {
+          "chunk_id": "32d6a44a278eb2c18aa6aee76e6a2859693dc7da3710cf53350d610dc599b814",
+          "version_id": "FIN-001-v2",
+          "score": 0.027583600982429624
+        },
+        {
+          "chunk_id": "f17930f2099517b4936aaab5cf36a3d0348d23c5f06dc0092a914e4adcb54e83",
+          "version_id": "FIN-002-v1",
+          "score": 0.014705882352941176
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "32d6a44a278eb2c18aa6aee76e6a2859693dc7da3710cf53350d610dc599b814"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "32d6a44a278eb2c18aa6aee76e6a2859693dc7da3710cf53350d610dc599b814"
+          ]
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q043",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v1",
+        "FIN-002-v1",
+        "HR-001-v1",
+        "HR-002-v1",
+        "SEC-001-v1",
+        "SEC-002-v1"
+      ],
+      "relevant_chunks": {
+        "8186a24529a44f99f2f10fb295242f37f645b34056133ed40fd6800e6662eb5b": "HR-001-v1",
+        "a0a35d407b54d6ecaa256ba3cb242c448d6af60e47a8f3b4df77d8ef53f6655c": "HR-001-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "4a5109f90a2b8b64115e899581a63e4a4aa181038f0cd6e3ee5810e4ec6c2f44",
+          "version_id": "HR-001-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "8186a24529a44f99f2f10fb295242f37f645b34056133ed40fd6800e6662eb5b",
+          "version_id": "HR-001-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "76419f6a00cb8cb29ed7c09922352abdcd9c433b643266eb466f2966cc569bae",
+          "version_id": "HR-001-v1",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "90016ddaa022e47abed1a699ec65e55e5154284406da495935e6682cd3ab9dd3",
+          "version_id": "HR-001-v1",
+          "score": 0.029910714285714284
+        },
+        {
+          "chunk_id": "396a1263d5c664f1bf3cc556d4c951c9b81b76de1cd13d8efdf7628504a16d5f",
+          "version_id": "HR-002-v1",
+          "score": 0.029236022193768675
+        },
+        {
+          "chunk_id": "1e548ba6aa2aabceda01bb6643eecca837ac426de792981a124284c762f2d5a2",
+          "version_id": "FIN-001-v1",
+          "score": 0.028958333333333336
+        },
+        {
+          "chunk_id": "4b3c387095243f8cd6781d6e42b4a49a6faba5500700ccecd57338d3f4a077e4",
+          "version_id": "HR-002-v1",
+          "score": 0.028814262023217248
+        },
+        {
+          "chunk_id": "2da32ca496c94df79da5e127f7c281d4829c45542d4ebab0720b15a49ddbe934",
+          "version_id": "FIN-001-v1",
+          "score": 0.02877846790890269
+        },
+        {
+          "chunk_id": "e4d29a9a243a13838266f69b6892c98bf5078e3314fac8420b190d206a34f993",
+          "version_id": "HR-001-v1",
+          "score": 0.02786377708978328
+        },
+        {
+          "chunk_id": "7bb92fd99ab32fd78a5dc04f4aff088e0de4f5542c686ba1947b306c19791d4f",
+          "version_id": "ADM-001-v1",
+          "score": 0.027402402402402402
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "a0a35d407b54d6ecaa256ba3cb242c448d6af60e47a8f3b4df77d8ef53f6655c"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "a0a35d407b54d6ecaa256ba3cb242c448d6af60e47a8f3b4df77d8ef53f6655c"
+          ]
+        },
+        "10": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "a0a35d407b54d6ecaa256ba3cb242c448d6af60e47a8f3b4df77d8ef53f6655c"
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "Q044",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v1",
+        "FIN-002-v1",
+        "HR-001-v1",
+        "HR-002-v1",
+        "PUR-001-v1",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v1"
+      ],
+      "relevant_chunks": {
+        "f65912d5d74c99d245868a0ff1721e356a3b2cd5b187e259e01be7ddaefc59c3": "PUR-001-v1",
+        "318dc51f0da46140b36931b77a09958ac4cf0caecc9de7a099ef7355c49493e3": "PUR-001-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "00e8d4b50f19139976a5fc13a81fc302f6f4e2a9257272ba424520c95df1c6b5",
+          "version_id": "PUR-001-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "f65912d5d74c99d245868a0ff1721e356a3b2cd5b187e259e01be7ddaefc59c3",
+          "version_id": "PUR-001-v1",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "97ae4f3ac6fa043ac408242e7fa59707d3888fb250f5dc05dedb4e85afc22aea",
+          "version_id": "FIN-002-v1",
+          "score": 0.03149801587301587
+        },
+        {
+          "chunk_id": "6a5d38557dff9e7b9f2c8fa979c2b5f711874383fba02bc032e12594b2719d61",
+          "version_id": "PUR-003-v1",
+          "score": 0.029631255487269532
+        },
+        {
+          "chunk_id": "73a9250c5ebc32fdec7802350bf3a103f210b7ec613abbe409a2fe3d30e274fe",
+          "version_id": "PUR-001-v1",
+          "score": 0.028125
+        },
+        {
+          "chunk_id": "e6e4b48d42bb7a28bc065c72a4957144252ba374841c53bb36415c87dafb588b",
+          "version_id": "PUR-002-v1",
+          "score": 0.028083267871170464
+        },
+        {
+          "chunk_id": "5dab56748751b3824e874bd27407f1d243cebf575e58e3cffce8897dfccc2d0e",
+          "version_id": "PUR-001-v1",
+          "score": 0.027809742999616416
+        },
+        {
+          "chunk_id": "faae25d43f66af40cb72cd1b1080210697cfee5012faaf39001a49b63618e5c4",
+          "version_id": "PUR-001-v1",
+          "score": 0.015873015873015872
+        },
+        {
+          "chunk_id": "ae73db8c3ea052441be6ffcd45a35caa0a378d695a215aeb12775ddb1878605b",
+          "version_id": "HR-002-v1",
+          "score": 0.015384615384615385
+        },
+        {
+          "chunk_id": "c4fb4e70260b42c3cf7b19841c33e9e356e10e933ea40d59d6e1b540f7ddfcba",
+          "version_id": "ADM-001-v1",
+          "score": 0.015384615384615385
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "318dc51f0da46140b36931b77a09958ac4cf0caecc9de7a099ef7355c49493e3"
+          ]
+        },
+        "5": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "318dc51f0da46140b36931b77a09958ac4cf0caecc9de7a099ef7355c49493e3"
+          ]
+        },
+        "10": {
+          "recall": 0.5,
+          "reciprocal_rank": 0.5,
+          "missing_chunk_ids": [
+            "318dc51f0da46140b36931b77a09958ac4cf0caecc9de7a099ef7355c49493e3"
+          ]
+        }
+      }
+    },
+    {
+      "question_id": "Q047",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2"
+      ],
+      "relevant_chunks": {
+        "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93": "SEC-002-v2"
+      },
+      "hits": [
+        {
+          "chunk_id": "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93",
+          "version_id": "SEC-002-v2",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "8163b97305bab3f1ba44e1b46a2611369bc0c9e9def7fbfaf8ad5f982f10baa7",
+          "version_id": "SEC-001-v1",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "de60157be9e3733c3ba66e4116f7680de37e8c24f9c60fd56cc7ea466fa69d03",
+          "version_id": "SEC-002-v2",
+          "score": 0.03128054740957967
+        },
+        {
+          "chunk_id": "8807e55b1354ad00d2cdca9ea72d98ee747b301f5716fcbdb79183714f4cdb19",
+          "version_id": "SEC-001-v1",
+          "score": 0.03125763125763126
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.0293236301369863
+        },
+        {
+          "chunk_id": "396a1263d5c664f1bf3cc556d4c951c9b81b76de1cd13d8efdf7628504a16d5f",
+          "version_id": "HR-002-v1",
+          "score": 0.02900988017658188
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.027526395173453996
+        },
+        {
+          "chunk_id": "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0",
+          "version_id": "SEC-002-v2",
+          "score": 0.027443609022556388
+        },
+        {
+          "chunk_id": "2bb96ddd59f9f60d44a6236556ff772cf59998ae0b5fdd56ccc55125512275f5",
+          "version_id": "SEC-002-v2",
+          "score": 0.02638888888888889
+        },
+        {
+          "chunk_id": "c2bdd37f6c520f78e1a0aedcd6a25dcfc67e1e9eab8fe942bdfae41663a169c2",
+          "version_id": "PUR-002-v1",
+          "score": 0.015625
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    },
+    {
+      "question_id": "Q048",
+      "expected_behavior": "report_conflict",
+      "status": "ok",
+      "eligible_version_ids": [
+        "ADM-001-v1",
+        "ADM-002-v1",
+        "ADM-003-v1",
+        "ADM-004-v1",
+        "FIN-001-v2",
+        "FIN-002-v1",
+        "FIN-003-v1",
+        "FIN-004-v1",
+        "HR-001-v2",
+        "HR-002-v1",
+        "HR-003-v1",
+        "HR-004-v1",
+        "MGT-001-v1",
+        "MGT-002-v1",
+        "MGT-003-v1",
+        "PUR-001-v2",
+        "PUR-002-v1",
+        "PUR-003-v1",
+        "PUR-004-v1",
+        "SEC-001-v1",
+        "SEC-002-v2",
+        "SEC-003-v1",
+        "SEC-004-v1"
+      ],
+      "relevant_chunks": {
+        "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93": "SEC-002-v2",
+        "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff": "MGT-003-v1",
+        "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237": "MGT-003-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "4fe729af35686d43a799c182881c50a665ca842c631f5416fac6bcbb13f88d93",
+          "version_id": "SEC-002-v2",
+          "score": 0.03252247488101534
+        },
+        {
+          "chunk_id": "2bb96ddd59f9f60d44a6236556ff772cf59998ae0b5fdd56ccc55125512275f5",
+          "version_id": "SEC-002-v2",
+          "score": 0.03200204813108039
+        },
+        {
+          "chunk_id": "4bd4470df9e9be97ac151b7bedad182251255826c95545a6a63e84b6c68201ff",
+          "version_id": "MGT-003-v1",
+          "score": 0.03131881575727918
+        },
+        {
+          "chunk_id": "4ef7f6166c8ab921c22719b791180837bf3fede8cd4e9945fedb9741be1d05c0",
+          "version_id": "SEC-002-v2",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "adefb516b5440c304384f5d28c4391bddac52983750c401b4f32461f849c01c6",
+          "version_id": "SEC-002-v2",
+          "score": 0.03076923076923077
+        },
+        {
+          "chunk_id": "e82c797eebfc2339998a775e784adcde35da56dfeb0f9900da564aabe21725ea",
+          "version_id": "SEC-002-v2",
+          "score": 0.030330882352941176
+        },
+        {
+          "chunk_id": "04cd352813955a2034013b7e47ae91a4bd7da5f8dca467bf08431d9f070eafa2",
+          "version_id": "SEC-002-v2",
+          "score": 0.030117753623188408
+        },
+        {
+          "chunk_id": "bcfb8b11740bf41d679bfd22779b3ee6daa01c39fab10d761c04349232bde988",
+          "version_id": "SEC-002-v2",
+          "score": 0.029211087420042643
+        },
+        {
+          "chunk_id": "de60157be9e3733c3ba66e4116f7680de37e8c24f9c60fd56cc7ea466fa69d03",
+          "version_id": "SEC-002-v2",
+          "score": 0.02919863597612958
+        },
+        {
+          "chunk_id": "a2d6ce705daf959f28ff31c4f878e4718aeb638d340a9ba121affa577f2ef0ac",
+          "version_id": "HR-002-v1",
+          "score": 0.027402402402402402
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        },
+        "5": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        },
+        "10": {
+          "recall": 0.6666666666666666,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": [
+            "d7318c95d4323454c919623af0829deb769032394eb5cb01be3ab60ce4333237"
+          ],
+          "all_conflicting_versions_hit": true
+        }
+      }
+    },
+    {
+      "question_id": "Q050",
+      "expected_behavior": "answer",
+      "status": "ok",
+      "eligible_version_ids": [
+        "HR-004-v1"
+      ],
+      "relevant_chunks": {
+        "560b843303ee6de6c19b8a2496bfadf7bc684c526aa6744b6e5082e0a7ddd029": "HR-004-v1",
+        "ef9ad5922a872f146b7abdeaa0cbea39985a2203b0dff998ca871cfafcdb3163": "HR-004-v1"
+      },
+      "hits": [
+        {
+          "chunk_id": "ef9ad5922a872f146b7abdeaa0cbea39985a2203b0dff998ca871cfafcdb3163",
+          "version_id": "HR-004-v1",
+          "score": 0.03278688524590164
+        },
+        {
+          "chunk_id": "49c709105fcb5a2faea068822ab8df516cd2d770afd15fe5e85667dd98f437eb",
+          "version_id": "HR-004-v1",
+          "score": 0.03225806451612903
+        },
+        {
+          "chunk_id": "560b843303ee6de6c19b8a2496bfadf7bc684c526aa6744b6e5082e0a7ddd029",
+          "version_id": "HR-004-v1",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "68695f7265c0af6266aa202e4cbb06d323b36a2f7ce2b8157f44beeff33cfa7c",
+          "version_id": "HR-004-v1",
+          "score": 0.031024531024531024
+        },
+        {
+          "chunk_id": "1a2df23203ec5fd8ffe6f117fdc4a21c7ea1634d004ecd86be59bc9c3ec9e1cc",
+          "version_id": "HR-004-v1",
+          "score": 0.03076923076923077
+        },
+        {
+          "chunk_id": "79ea59b23a8edd73c1b30f26ec94d81e7db0b641d0cf68f7fa9d351bc6cdec2b",
+          "version_id": "HR-004-v1",
+          "score": 0.030330882352941176
+        },
+        {
+          "chunk_id": "c89057d0c2f6be0c49f91b3e907da59e53db38427441e17b1a14b2da28e3b7d5",
+          "version_id": "HR-004-v1",
+          "score": 0.030330882352941176
+        },
+        {
+          "chunk_id": "9e907ec4470a7af667bf5ff1528626103b579fc023c8d8539cdc11715eea0ad3",
+          "version_id": "HR-004-v1",
+          "score": 0.029850746268656716
+        }
+      ],
+      "at_k": {
+        "3": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "5": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        },
+        "10": {
+          "recall": 1.0,
+          "reciprocal_rank": 1.0,
+          "missing_chunk_ids": []
+        }
+      }
+    }
+  ],
+  "strategy": {
+    "name": "hybrid_bm25_bge_m3_rrf",
+    "fusion": {
+      "rrf_k": 60,
+      "branch_depth": 20,
+      "weights": [
+        1,
+        1
+      ]
+    },
+    "keyword": {
+      "tokenizer": "han_bigram",
+      "k1": 1.2,
+      "b": 0.75
+    },
+    "vector": {
+      "embedding": {
+        "repo_id": "BAAI/bge-m3",
+        "revision": "5617a9f61b028005a4858fdac845db406aefb181",
+        "dimension": 1024,
+        "max_length": 512,
+        "batch_size": 4,
+        "device": "cpu",
+        "dtype": "float32",
+        "normalize_embeddings": true,
+        "prompt": "",
+        "similarity": "cosine"
+      },
+      "search": "qdrant_local_exact"
+    }
+  }
+}

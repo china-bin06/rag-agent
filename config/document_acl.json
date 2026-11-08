@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "default_effect": "deny",
+  "inactive_user": "deny_all",
+  "valid_roles": [
+    "employee",
+    "manager",
+    "finance",
+    "hr",
+    "procurement",
+    "it_admin"
+  ],
+  "valid_departments": [
+    "engineering",
+    "finance",
+    "hr",
+    "procurement",
+    "it",
+    "management"
+  ],
+  "policy_scope": "logical_document_current_acl_applies_to_all_versions",
+  "role_mapping": "权限表的人员类别映射到角色；不自动添加部门授权。所有 allowed_departments 初始为空。",
+  "documents": {
+    "ADM-001": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "ADM-002": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "ADM-003": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "finance",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "财务部、IT",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "ADM-004": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "hr",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "HR、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "FIN-001": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "FIN-002": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "FIN-003": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "finance",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "财务部、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "FIN-004": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "finance",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "财务部、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "HR-001": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "HR-002": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "HR-003": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "hr",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "HR、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "HR-004": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "hr",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "HR、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "MGT-001": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "MGT-002": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "manager",
+        "finance"
+      ],
+      "allowed_departments": [],
+      "source_scope": "管理层、财务部",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "MGT-003": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "PUR-001": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "procurement",
+        "finance"
+      ],
+      "allowed_departments": [],
+      "source_scope": "采购部、财务部",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "PUR-002": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "procurement",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "采购部、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "PUR-003": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "procurement",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "采购部、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "PUR-004": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "procurement",
+        "finance"
+      ],
+      "allowed_departments": [],
+      "source_scope": "采购部、财务部",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "SEC-001": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "SEC-002": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "employee",
+        "manager",
+        "finance",
+        "hr",
+        "procurement",
+        "it_admin"
+      ],
+      "allowed_departments": [],
+      "source_scope": "全体员工",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "SEC-003": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "it_admin",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "IT、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    },
+    "SEC-004": {
+      "acl_revision": 1,
+      "access_policy": "role_or_department",
+      "allowed_roles": [
+        "it_admin",
+        "manager"
+      ],
+      "allowed_departments": [],
+      "source_scope": "IT、管理层",
+      "basis": {
+        "type": "project_configuration",
+        "description": "由当前项目显式配置的制度阅读范围，不依赖外部依据文件。"
+      }
+    }
+  },
+  "policy_revision": 3,
+  "super_admin_departments": [
+    "it"
+  ],
+  "management_departments": [
+    "it"
+  ],
+  "override_basis": "本项目用户确认：停用账号拒绝所有访问。启用且后端部门为it的用户可阅读全部知识库制度，历史版本同样适用；仅拥有it_admin角色不据此获得全库阅读权限。知识库管理权限独立判断：启用且部门为it或拥有it_admin角色时授权。其他制度阅读按文档级role_or_department规则判断。",
+  "path_base": "project_root",
+  "management_roles": [
+    "it_admin"
+  ],
+  "management_policy": "role_or_department"
+}
